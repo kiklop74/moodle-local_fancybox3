@@ -30,7 +30,9 @@ defined('MOODLE_INTERNAL') || die();
 
 /**
  * Class helper
- * @package local_fancybox3
+ * @package   local_fancybox3
+ * @copyright 2018 Darko Miletic
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 abstract class helper {
 
