@@ -41,8 +41,12 @@ abstract class helper {
      * @throws \coding_exception
      */
     public static function initialize() {
-        global $PAGE;
-        $PAGE->requires->css(new moodle_url('/local/fancybox3/style/jquery.fancybox.css'));
+        global $PAGE, $CFG;
+        $cssname = 'jquery.fancybox.min.css';
+        if (!empty($CFG->debugdeveloper)) {
+            $cssname = 'jquery.fancybox.css';
+        }
+        $PAGE->requires->css(new moodle_url("/local/fancybox3/style/$cssname"));
     }
 
 }
