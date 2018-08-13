@@ -9,6 +9,7 @@
 //
 // ==================================================
 /* eslint-disable */
+/* jshint ignore: start */
 define(['jquery'], function($) {
 (function(window, document, $, undefined) {
   "use strict";
