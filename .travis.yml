@@ -23,6 +23,7 @@ env:
   global:
     - DB=mysqli
     - MOODLE_CI_VER=2
+    - IGNORE_PATHS=amd/src/jquery.fancybox.js
 
 matrix:
  include:
