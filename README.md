@@ -10,3 +10,7 @@ Moodle 2.9+
 For details on how to use the plugin in Moodle check test.php.
 For Fancybox documentation visit the [Fancybox3](http://fancyapps.com/fancybox/3/docs/) site.
 
+## Contact
+
+If you have any questions or bugs to report please open an issue in the repository tracker.
+
