@@ -25,7 +25,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_fancybox3';
-$plugin->version  = 2018073101;
+$plugin->version  = 2018073102;
 $plugin->requires = 2015051100;
 $plugin->maturity = MATURITY_STABLE;
-$plugin->release  = '1.0.1';
+$plugin->release  = '1.0.2';
